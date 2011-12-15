@@ -1,0 +1,76 @@
+body, input, table, select {
+font: 9pt serif;
+}
+
+body, form, .sps, .but, #act_but {
+margin: 0px;
+padding: 0px;
+}
+
+h1 {
+font-size: 200%;
+font-weight:bold;
+}
+
+#canvas {
+width:100%;
+}
+
+.main{
+background-color:#ddd;
+padding:5px 0px;
+}
+
+.menu {
+background-color:#ddd;
+border-bottom:1px solid red;
+}
+
+.but {
+background-color:#eee;
+float:left;
+border: 1px solid red;
+display:block;
+width:25%;
+height:30px;
+position:relative;
+top:1px;
+}
+
+.sps {
+clear:both;
+}
+
+#act_but {
+background-color:#fff;
+border-top: 1px solid red;
+border-left: 1px solid red;
+border-right: 1px solid red;
+border-bottom: 1px solid white;
+}
+
+.menu a {
+display:block;
+width:100%;
+height:100%;
+color:#000;
+text-decoration:none;
+line-height:2.4;
+font-variant:small-caps;
+}
+
+.error, .succ {
+font-size: 200%;
+background-color:#FFFF66;
+border:1px solid red;
+margin:20px;
+}
+
+.succ {
+border:1px solid #009900;
+background-color:#99FF66;
+}
+
+#works_canvas {
+display:none;
+}
